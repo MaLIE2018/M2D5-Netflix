@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+	<!-- comment -->
+
 	<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
@@ -21,6 +23,7 @@
 		<link href="./css/Ankit/styles.css" rel="stylesheet" />
 		<title>Netflix</title>
 	</head>
+
 	<body>
 		<nav class="navbar navbar-dark myNav">
 			<div class="container-fluid">
@@ -31,20 +34,22 @@
 		</nav>
 
 		<main class="main-content">
-			<div class="container content-div">
+			<div class="container mx-auto" style="width: 593px">
 				<div class="row row1">
 					<div class="heading">
 						<span><h1>Edit Profile</h1></span>
 					</div>
 				</div>
-				<div class="row row2">
-					<hr class="mt-2" />
+				<div class="row p-0 row2">
+					<div class="col">
+						<hr class="mt-2" />
+					</div>
 				</div>
 				<div class="row row3 mt-3">
-					<div class="col row3Col1">
+					<div class="col-3 d-flex justify-content-end row3Col1">
 						<div class="avatar">
 							<img
-								class="mt-1 py-0"
+								class="py-0 img-fluid"
 								src="./assets/avatar.png"
 								alt="Profile Avatar"
 								height="100px"
@@ -87,8 +92,10 @@
 								</ul>
 							</div>
 						</div>
-						<div class="row row3Col2.4 mt-4">
-							<hr />
+						<div class="row row3Col2.4">
+							<div class="col">
+								<hr class="middleHr" />
+							</div>
 						</div>
 
 						<div class="row row3Col2.5">
@@ -121,23 +128,35 @@
 							</span>
 						</div>
 						<div class="row row3Col2.9 mt-3">
-							<hr />
+							<div class="col"><hr class="middleHr" /></div>
 						</div>
 						<div class="row row3Col2.10 mt-3">
 							<label for="autoplayControls">Autoplay Controls</label>
 						</div>
 						<div class="row rowCol2.11 mt-2">
-							<input class="form-check-input me-1" type="checkbox" value="" />
-							Autoplay next episodes in a series on all devices.
+							<div class="col">
+								<input
+									class="form-check-input me-1 CheckboxSize"
+									type="checkbox"
+									value=""
+								/>Autoplay next episodes in a series on all devices.
+							</div>
 						</div>
 						<div class="row rowCol2.12 mt-2">
-							<input class="form-check-input me-1" type="checkbox" value="" />
-							Autoplay previews while browsing on all devices.
+							<div class="col">
+								<input
+									class="form-check-input me-1 CheckboxSize"
+									type="checkbox"
+									value=""
+								/>Autoplay previews while browsing on all devices.
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row row4 mt-4">
-					<hr />
+					<div class="col">
+						<hr />
+					</div>
 				</div>
 				<div class="row row5 mt-2">
 					<div class="col">
