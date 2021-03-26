@@ -1,0 +1,36 @@
+body,
+.myNav {
+	background-color: black;
+}
+.main-content {
+	color: white;
+	font-family: sans-serif;
+}
+#profileName {
+	background-color: grey;
+	color: white;
+	width: 22rem;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 0px;
+}
+.content-div {
+	background-color: rgb(19, 16, 16);
+	opacity: 0.9;
+}
+#dropdownMenuButton1 {
+	border: 1px solid white;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: white;
+	background-color: rgb(19, 16, 16);
+	border-radius: 0px;
+}
+#maturityratings {
+	background: none;
+}
+#edit {
+	border-radius: 0px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
