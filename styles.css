@@ -23,6 +23,8 @@ h2 {
 }
 h4 {
   margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .flex {
@@ -32,11 +34,12 @@ h4 {
   height: 20px;
   width: 55%;
   font-size: 15px;
+  margin-top: 30px;
   color: grey;
 }
 .try {
-  position: relative;
-  top: 200px;
+  margin-top: 200px;
+  margin-left: center;
 }
 .logos {
   text-align: center;
@@ -59,4 +62,62 @@ h4 {
 }
 #facebook {
   margin-right: 35px;
+}
+#first {
+  margin-left: 50px;
+  height: 400px;
+  width: 250px;
+}
+#second {
+  height: 400px;
+  width: 250px;
+}
+#thirt {
+  height: 400px;
+  width: 250px;
+}
+#fourth {
+  height: 400px;
+  width: 250px;
+}
+#fifht {
+  height: 400px;
+  width: 350px;
+}
+#six {
+  margin-left: 50px;
+  height: 400px;
+  width: 250px;
+}
+#seven {
+  height: 400px;
+  width: 250px;
+}
+#eight {
+  height: 400px;
+  width: 250px;
+}
+#nine {
+  height: 400px;
+  width: 250px;
+}
+#ten {
+  height: 400px;
+  width: 250px;
+}
+#eleven {
+  margin-left: 10px;
+  height: 160px;
+}
+#twelve {
+  height: 160px;
+}
+#firteen {
+  height: 160px;
+}
+#fourteen {
+  height: 160px;
+}
+#fifteen {
+  height: 160px;
 }
