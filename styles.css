@@ -1,0 +1,58 @@
+#navbar {
+  margin-left: 30px;
+}
+#navbarSupportedContent {
+  margin-left: 20px;
+}
+a {
+  color: white;
+}
+#lens {
+  margin-left: 650px;
+}
+#bell {
+  margin-left: 20px;
+}
+#kidsLogo {
+  margin-left: 40px;
+}
+h2 {
+  color: white;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+h4 {
+  margin-left: 40px;
+}
+
+.flex {
+  max-width: 30px;
+}
+.container {
+  height: 20px;
+  width: 55%;
+  font-size: 15px;
+  color: grey;
+}
+.prova {
+  position: relative;
+  top: 200px;
+}
+.logos {
+  text-align: center;
+  position: relative;
+  left: 24%;
+}
+.logos2 {
+  position: relative;
+  left: 50%;
+}
+.prova2 {
+  background: rgb(5, 5, 5);
+}
+.button {
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-color: darkgrey;
+}
