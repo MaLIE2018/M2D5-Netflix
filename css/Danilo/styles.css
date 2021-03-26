@@ -1,0 +1,123 @@
+#navbar {
+  margin-left: 30px;
+}
+#navbarSupportedContent {
+  margin-left: 20px;
+}
+a {
+  color: white;
+}
+#lens {
+  margin-left: 650px;
+}
+#bell {
+  margin-left: 20px;
+}
+#kidsLogo {
+  margin-left: 40px;
+}
+h2 {
+  color: white;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+h4 {
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.flex {
+  max-width: 30px;
+}
+.container {
+  height: 20px;
+  width: 55%;
+  font-size: 15px;
+  margin-top: 30px;
+  color: grey;
+}
+.try {
+  margin-top: 200px;
+  margin-left: center;
+}
+.logos {
+  text-align: center;
+  position: relative;
+  left: 24%;
+  margin-right: 10px;
+}
+.logos2 {
+  position: relative;
+  left: 50%;
+}
+.prova2 {
+  background: rgb(5, 5, 5);
+}
+.button {
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-color: darkgrey;
+}
+#facebook {
+  margin-right: 35px;
+}
+#first {
+  margin-left: 50px;
+  height: 400px;
+  width: 250px;
+}
+#second {
+  height: 400px;
+  width: 250px;
+}
+#thirt {
+  height: 400px;
+  width: 250px;
+}
+#fourth {
+  height: 400px;
+  width: 250px;
+}
+#fifht {
+  height: 400px;
+  width: 350px;
+}
+#six {
+  margin-left: 50px;
+  height: 400px;
+  width: 250px;
+}
+#seven {
+  height: 400px;
+  width: 250px;
+}
+#eight {
+  height: 400px;
+  width: 250px;
+}
+#nine {
+  height: 400px;
+  width: 250px;
+}
+#ten {
+  height: 400px;
+  width: 250px;
+}
+#eleven {
+  margin-left: 10px;
+  height: 160px;
+}
+#twelve {
+  height: 160px;
+}
+#firteen {
+  height: 160px;
+}
+#fourteen {
+  height: 160px;
+}
+#fifteen {
+  height: 160px;
+}

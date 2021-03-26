@@ -56,6 +56,16 @@ h1 {
 	margin-right: 30px;
 }
 
+.me-1 {
+	border: 1px solid gainsboro;
+	background-color: black;
+	border-radius: 0;
+}
+
+.middleHr {
+	margin-right: 30px;
+}
+
 .CheckboxSize {
 	width: 30px;
 	height: 30px;

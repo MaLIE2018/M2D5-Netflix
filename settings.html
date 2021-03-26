@@ -16,167 +16,219 @@
 </head>
 
 <body class="settings">
+    <div class="container-fluid navbarColor">
+        <nav id="navbar" class="text-white navbar navbar-expand-lg navbar-black bg-black">
+            <a class="navbar-brand" href="#"></a>
+            <img src="https://deadline.com/wp-content/uploads/2020/07/netflix-logo.png?w=681&h=383&crop=1" width="120" />
 
-    <div class="container settings">
-        <div class="row btn-light">
-            <div class="col">
-                <h1>Account</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <hr class="account-divider">
-            </div>
-        </div>
-
-        <!-- Membership & Billing -->
-
-        <div class="row btn-light">
-            <div class="col-sm-12 col-md-12 col-lg-3">
-                <h2>MEMBERSHIP & BILLING</h2><button type="button" id="cancel" class="mt-2"><span>Cancel Membership</span></button></div>
-            <div class="col-sm-12 col-md-12 col-lg-9">
-                <div class="row">
-                    <div class="col btn-light font-weight-bold  mt-lg-0 mt-md-4 mt-sm-4 mt-4">liebsch@pm.me</div>
-                    <div class="col btn-light text-right  mt-lg-0 mt-md-4 mt-sm-4 mt-4"><a href="">Change account email</a></div>
-                </div>
-                <div class="row">
-                    <div class="col btn-light"><span class="info">Password: ********</span></div>
-                    <div class="col btn-light text-right"><a href="">Change password</a></div>
-                </div>
-                <div class="row">
-                    <div class="col btn-light"><span class="info">Phone: (917) 586-9941</span></div>
-                    <div class="col btn-light text-right"><a href="">Change phone number</a></div>
-                </div>
-                <hr class="account-divider">
-                <div class="row">
-                    <div class="col btn-light font-weight-bold"><img src="./assets/paypal.png" class="image-fluid" alt="" width="32" height="20"> liebsch@pm.me</div>
-                    <div class="col btn-light text-right"><a href="">Manage payment info</a></div>
-                </div>
-                <div class="row">
-                    <div class="col btn-light"></div>
-                    <div class="col btn-light text-right"><a href="">Add backup payment method</a></div>
-                </div>
-                <div class="row">
-                    <div class="col btn-light"></div>
-                    <div class="col btn-light text-right"><a href="">Billing details</a></div>
-                </div>
-                <hr class="account-divider">
-                <div class="row">
-                    <div class="col btn-light"></div>
-                    <div class="col btn-light text-right"><a href="">Redeem gift card or promo code</a></div>
-                </div>
-                <div class="row">
-                    <div class="col btn-light"></div>
-                    <div class="col btn-light text-right"><a href="">Where to buy gift cards</a></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- End Membership & Billing -->
-
-        <div class="row">
-            <div class="col">
-                <hr class="otherDevider">
-            </div>
-        </div>
-
-        <!-- Plan Details -->
-
-        <div class="row btn-light">
-            <div class="col-sm-12 col-md-12 col-lg-3 d-flex align-content-center flex-wrap">
-                <h2>PLAN DETAILS</h2>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-9">
-                <div class="row mt-2">
-                    <div class="col btn-light font-weight-bold">Premium<img src="./assets/ultra.png" class="image-fluid" alt="" width="100" height="30"></div>
-                    <div class="col btn-light text-right"><a href="">Change plan</a></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- End Plan Details -->
-
-        <div class="row">
-            <div class="col">
-                <hr class="otherDevider">
-            </div>
-        </div>
-
-        <!-- Settings -->
-        <div class="row btn-light">
-            <div class="col-sm-12 col-md-12 col-lg-3">
-                <h2>SETTINGS</h2>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-9">
-                <div class="row">
-                    <div class="col"><a href="http://">Manage download devices</a></div>
-                </div>
-                <div class="row">
-                    <div class="col"><a href="http://">Activate a device</a></div>
-                </div>
-                <div class="row">
-                    <div class="col"><a href="http://">Test participation</a></div>
-                </div>
-                <div class="row">
-                    <div class="col"><a href="http://">Recent device streaming activity</a></div>
-                </div>
-                <div class="row">
-                    <div class="col"><a href="http://">Sign out of all devices</a></div>
-                </div>
-                <div class="row">
-                    <div class="col"><a href="http://">Download your personal information</a></div>
-                </div>
-            </div>
-        </div>
-        <!-- End Settings -->
-        <div class="row">
-            <div class="col">
-                <hr class="otherDevider">
-            </div>
-        </div>
-        <!--PROFIl-->
-        <div class="row btn-light">
-            <div class="col-sm-12 col-md-12 col-lg-3 d-flex align-content-top flex-wrap">
-                <h2>MY PROFILE</h2>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-9">
-                <div class="row">
-                    <div class="col"><img src="./assets/avatar.png" class="image-fluid rounded-sm" alt="" width="40" height="40"><span class="ml-3 font-weight-bold">Strive Student</span></div>
-                    <div class="col text-right">
-                        <div class="row">
-                            <div class="col"><a href="http://">Manage profiles</a></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TV Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recently Added </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                </ul>
+                <div class="container d-flex p-0 mr-5 justify-content-end">
+                    <div class="row my-2 my-sm-0">
+                        <div class="col">
+                            <div class="" id="lens">
+                                <img src="./assets/media/lens.svg">
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col"><a href="http://">Add profile email</a></div>
+                        <div class="col">
+                            <div class="my-2 my-sm-0" id="bell">
+                                <img src="./assets/media/bell.png" height="20px">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="my-2 my-sm-0" id="kidsLogo">
+                                <img src="./assets/media/kids_icon.png" height="30px">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col"><a href="">Language</a> </div>
-                    <div class="col"><a href="">Viewing activity</a> </div>
+        </nav>
+        </div>
+        <div class="container-xl settings">
+            <div class="row mt-5 btn-light">
+                <div class="col">
+                    <h1>Account</h1>
                 </div>
-                <div class="row">
-                    <div class="col"><a href="">Playback settings</a> </div>
-                    <div class="col"><a href="">Ratings</a> </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <hr class="account-divider">
                 </div>
-                <div class="row">
-                    <div class="col"><a href="">Subtitle appearance</a> </div>
-                    <div class="col">
-                        <a href=""></a>
+            </div>
+
+            <!-- Membership & Billing -->
+
+            <div class="row btn-light">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <h2>MEMBERSHIP & BILLING</h2><button type="button" id="cancel" class="mt-2"><span>Cancel Membership</span></button></div>
+                <div class="col-sm-12 col-md-9 col-lg-9">
+                    <div class="row">
+                        <div class="col btn-light font-weight-bold mt-lg-0 mt-md-0 mt-sm-4 mt-4">liebsch@pm.me</div>
+                        <div class="col btn-light text-right mt-lg-0 mt-md-0 mt-sm-4 mt-4"><a href="">Change account email</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col btn-light"><span class="info">Password: ********</span></div>
+                        <div class="col btn-light text-right"><a href="">Change password</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col btn-light"><span class="info">Phone: (917) 586-9941</span></div>
+                        <div class="col btn-light text-right"><a href="">Change phone number</a></div>
+                    </div>
+                    <hr class="account-divider">
+                    <div class="row">
+                        <div class="col btn-light font-weight-bold"><img src="./assets/paypal.png" class="image-fluid" alt="" width="32" height="20"> liebsch@pm.me</div>
+                        <div class="col btn-light text-right"><a href="">Manage payment info</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col btn-light"></div>
+                        <div class="col btn-light text-right"><a href="">Add backup payment method</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col btn-light"></div>
+                        <div class="col btn-light text-right"><a href="">Billing details</a></div>
+                    </div>
+                    <hr class="account-divider">
+                    <div class="row">
+                        <div class="col btn-light"></div>
+                        <div class="col btn-light text-right"><a href="">Redeem gift card or promo code</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col btn-light"></div>
+                        <div class="col btn-light text-right"><a href="">Where to buy gift cards</a></div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--End PROFIL-->
 
-        <!-- Optional JavaScript; choose one of the two! -->
+            <!-- End Membership & Billing -->
 
-        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+            <div class="row">
+                <div class="col">
+                    <hr class="otherDevider">
+                </div>
+            </div>
 
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
+            <!-- Plan Details -->
+
+            <div class="row btn-light">
+                <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-content-center flex-wrap">
+                    <div class="row mt-2 m-0">
+                        <h2>PLAN DETAILS</h2>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9">
+                    <div class="row mt-2">
+                        <div class="col btn-light font-weight-bold">Premium<img src="./assets/ultra.png" class="image-fluid" alt="" width="100" height="30"></div>
+                        <div class="col btn-light text-right"><a href="">Change plan</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Plan Details -->
+
+            <div class="row">
+                <div class="col">
+                    <hr class="otherDevider">
+                </div>
+            </div>
+
+            <!-- Settings -->
+            <div class="row btn-light">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <h2>SETTINGS</h2>
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9">
+                    <div class="row">
+                        <div class="col"><a href="http://">Manage download devices</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><a href="http://">Activate a device</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><a href="http://">Test participation</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><a href="http://">Recent device streaming activity</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><a href="http://">Sign out of all devices</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><a href="http://">Download your personal information</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Settings -->
+            <div class="row">
+                <div class="col">
+                    <hr class="otherDevider">
+                </div>
+            </div>
+            <!--PROFIl-->
+            <div class="row btn-light">
+                <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-content-top flex-wrap">
+                    <h2>MY PROFILE</h2>
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9">
+                    <div class="row">
+                        <div class="col"><img src="./assets/avatar.png" class="image-fluid rounded-sm" alt="" width="40" height="40"><span class="ml-3 font-weight-bold">Strive Student</span></div>
+                        <div class="col text-right">
+                            <div class="row">
+                                <div class="col"><a href="http://">Manage profiles</a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><a href="http://">Add profile email</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col"><a href="">Language</a> </div>
+                        <div class="col"><a href="">Viewing activity</a> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><a href="">Playback settings</a> </div>
+                        <div class="col"><a href="">Ratings</a> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><a href="">Subtitle appearance</a> </div>
+                        <div class="col">
+                            <a href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End PROFIL-->
+
+            <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
