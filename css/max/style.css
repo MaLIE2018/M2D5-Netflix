@@ -1,11 +1,59 @@
-body {
-    background-color: #F3F3F3;
-}
-
-hr {
-    color: #999999;
-}
-
-.btn-light {
-    background-color: #F3F3F3;
-}
+    /* Macro */
+    
+    body {
+        background-color: #F3F3F3;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    h1 {
+        font-size: 34px;
+        font-weight: 400;
+        color: #333333;
+        margin-bottom: 0;
+    }
+    
+    a {
+        color: #0073E6;
+    }
+    
+    h2 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #757575;
+    }
+    /* Classes */
+    
+    .btn-light {
+        background-color: #F3F3F3;
+    }
+    
+    .info {
+        color: #757575;
+    }
+    
+    .account-divider {
+        color: #999999;
+        border-top: 1px solid #999898;
+    }
+    
+    .otherDevider {
+        border-top: 1px solid #999898;
+    }
+    /* ID's */
+    
+    #cancel {
+        width: 200px;
+        height: 37px;
+        background-color: #EAEAEA;
+        border: none;
+        color: black;
+        border-bottom: 1px solid #C3C3C3;
+        border-radius: 2px;
+    }
+    
+    #cancel span {
+        font-weight: 400;
+        font-size: 13px;
+        color: black;
+    }
