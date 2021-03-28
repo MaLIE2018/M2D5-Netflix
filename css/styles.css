@@ -1,0 +1,55 @@
+    /* tags */
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: black;
+    }
+    /* classes */
+    /* Ids */
+    
+    #navBarId {
+        background-color: black;
+    }
+    
+    #searchField::placeholder {
+        caret-color: white;
+    }
+    
+    #searchField {
+        caret-color: white;
+        color: white;
+        box-shadow: 0 0 0 0;
+    }
+    /* dropdown */
+    
+    a.dropdown-item:hover {
+        background-color: black;
+        text-decoration: underline;
+    }
+    
+    #dropDown {
+        background-color: black;
+        color: white;
+    }
+    
+    #dropDown::hover {
+        background-color: black;
+        color: black;
+    }
+    
+    #dropDown .caret {
+        border-top: none;
+        border-bottom: 4px solid #000000;
+    }
+    
+    #smalltriangle {
+        position: absolute;
+        top: 0px;
+        left: 162px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 10px 10px 10px;
+        border-color: transparent transparent #E5E5E5 transparent;
+    }
+    /* end dropdown */
