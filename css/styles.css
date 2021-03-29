@@ -20,6 +20,17 @@
         color: white;
         box-shadow: 0 0 0 0;
     }
+    
+    .input-hidden {
+        width: 42px;
+        transition: 0.3s;
+    }
+    
+    .input-expanded {
+        width: 235px;
+        opacity: 1;
+        transition: 0.3s;
+    }
     /* dropdown */
     
     a.dropdown-item:hover {
@@ -27,10 +38,12 @@
         text-decoration: underline;
     }
     
-    #dropDown {
+    .dropdown-menu.customDropDown {
         background-color: black;
+        opacity: 0.9;
         color: white;
     }
+    /* not use expand */
     
     #dropDown::hover {
         background-color: black;
