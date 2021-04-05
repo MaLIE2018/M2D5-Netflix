@@ -21,9 +21,42 @@
         box-shadow: 0 0 0 0;
     }
     
+    .img-gallary {
+        opacity: 0.65;
+        border-radius: 2px;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .img-gallary:hover {
+        opacity: 1;
+        cursor: pointer;
+        z-index: 5;
+        transform: scale(1.5);
+    }
+    
+    footer ul {
+        list-style: none;
+    }
+    
+    .page-footer {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    .carousel-control-prev {
+        margin-left: -70px;
+        color: white;
+    }
+    
+    .carousel-control-next {
+        margin-right: -71px;
+        color: white;
+    }
+    
     .input-hidden {
         width: 42px;
-        transition: 0.3s;
+        transition: all 0.3s ease-in;
     }
     
     .input-expanded {
@@ -38,21 +71,26 @@
         text-decoration: underline;
     }
     
+    searchContainer {
+        position: absolute;
+        right: 180px;
+        background-color: black;
+    }
+    
     .dropdown-menu.customDropDown {
         background-color: black;
         opacity: 0.9;
         color: white;
     }
-    /* not use expand */
+    
+    #SearchDropDown .dropdown-toggle::after:hover {
+        content: "";
+        color: red !important;
+    }
     
     #dropDown::hover {
         background-color: black;
         color: black;
-    }
-    
-    #dropDown .caret {
-        border-top: none;
-        border-bottom: 4px solid #000000;
     }
     
     #smalltriangle {

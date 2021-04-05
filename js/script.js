@@ -28,6 +28,4 @@ window.onload = (event) => {
         dropdown.classList.remove("show")
         dropdownContainer.classList.remove("show")
     })
-
-
 }

@@ -22,6 +22,14 @@ h1 {
     border-radius: 0px;
 }
 
+#profileName::placeholder {
+    color: white;
+}
+
+#profileName::focus {
+    outline: 0;
+}
+
 .content-div {
     background-color: rgb(19, 16, 16);
     opacity: 0.9;
@@ -64,14 +72,4 @@ h1 {
 
 .middleHr {
     margin-right: 30px;
-}
-
-.CheckboxSize {
-    width: 30px;
-    height: 30px;
-    border-radius: 0px;
-}
-
-.form-check-input[type=checkbox] {
-    border-radius: 0;
 }
