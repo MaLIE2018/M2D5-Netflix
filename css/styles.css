@@ -1,4 +1,16 @@
-    /* tags */
+    /*  mainpage    */
+    /*  moviecards */
+    
+    .movierow .card {
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+        opacity: 0.8
+    }
+    
+    .movierow .card:hover {
+        transform: scale(1.03);
+        opacity: 1
+    }
     
     body {
         font-family: 'Open Sans', sans-serif;
@@ -39,19 +51,25 @@
         list-style: none;
     }
     
+    footer {
+        font-size: 0.8rem
+    }
+    
     .page-footer {
         margin-left: 25%;
         margin-right: 25%;
     }
     
     .carousel-control-prev {
-        margin-left: -70px;
         color: white;
+        position: absolute;
+        left: -60px;
     }
     
     .carousel-control-next {
-        margin-right: -71px;
         color: white;
+        position: absolute;
+        right: -60px;
     }
     
     .input-hidden {
