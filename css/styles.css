@@ -1,106 +1,106 @@
-    /* tags */
-    
-    body {
-        font-family: 'Open Sans', sans-serif;
-        background-color: black;
-    }
-    /* classes */
-    /* Ids */
-    
-    #navBarId {
-        background-color: black;
-    }
-    
-    #searchField::placeholder {
-        caret-color: white;
-    }
-    
-    #searchField {
-        caret-color: white;
-        color: white;
-        box-shadow: 0 0 0 0;
-    }
-    
-    .img-gallary {
-        opacity: 0.65;
-        border-radius: 2px;
-        width: 100%;
-        transition: all 0.3s ease-in-out;
-    }
-    
-    .img-gallary:hover {
-        opacity: 1;
-        cursor: pointer;
-        z-index: 5;
-        transform: scale(1.5);
-    }
-    
-    footer ul {
-        list-style: none;
-    }
-    
-    .page-footer {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-    
-    .carousel-control-prev {
-        margin-left: -70px;
-        color: white;
-    }
-    
-    .carousel-control-next {
-        margin-right: -71px;
-        color: white;
-    }
-    
-    .input-hidden {
-        width: 42px;
-        transition: all 0.3s ease-in;
-    }
-    
-    .input-expanded {
-        width: 235px;
-        opacity: 1;
-        transition: 0.3s;
-    }
-    /* dropdown */
-    
-    a.dropdown-item:hover {
-        background-color: black;
-        text-decoration: underline;
-    }
-    
-    searchContainer {
-        position: absolute;
-        right: 180px;
-        background-color: black;
-    }
-    
-    .dropdown-menu.customDropDown {
-        background-color: black;
-        opacity: 0.9;
-        color: white;
-    }
-    
-    #SearchDropDown .dropdown-toggle::after:hover {
-        content: "";
-        color: red !important;
-    }
-    
-    #dropDown::hover {
-        background-color: black;
-        color: black;
-    }
-    
-    #smalltriangle {
-        position: absolute;
-        top: 0px;
-        left: 162px;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 10px 10px 10px;
-        border-color: transparent transparent #E5E5E5 transparent;
-    }
-    /* end dropdown */
+/* tags */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+}
+/* classes */
+/* Ids */
+
+#navBarId {
+	background-color: black;
+}
+
+#searchField::placeholder {
+	caret-color: white;
+}
+
+#searchField {
+	caret-color: white;
+	color: white;
+	box-shadow: 0 0 0 0;
+}
+
+.img-gallary {
+	opacity: 0.65;
+	border-radius: 2px;
+	width: 100%;
+	transition: all 0.3s ease-in-out;
+}
+
+.img-gallary:hover {
+	opacity: 1;
+	cursor: pointer;
+	z-index: 5;
+	transform: scale(1.5);
+}
+
+footer ul {
+	list-style: none;
+}
+
+.page-footer {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.carousel-control-prev {
+	margin-left: -70px;
+	color: white;
+}
+
+.carousel-control-next {
+	margin-right: -71px;
+	color: white;
+}
+
+.input-hidden {
+	width: 42px;
+	transition: all 0.3s ease-in;
+}
+
+.input-expanded {
+	width: 235px;
+	opacity: 1;
+	transition: 0.3s;
+}
+/* dropdown */
+
+a.dropdown-item:hover {
+	background-color: black;
+	text-decoration: underline;
+}
+
+searchContainer {
+	position: absolute;
+	right: 180px;
+	background-color: black;
+}
+
+.dropdown-menu.customDropDown {
+	background-color: black;
+	opacity: 0.9;
+	color: white;
+}
+
+#SearchDropDown .dropdown-toggle::after:hover {
+	content: '';
+	color: red !important;
+}
+
+#dropDown::hover {
+	background-color: black;
+	color: black;
+}
+
+#smalltriangle {
+	position: absolute;
+	top: 0px;
+	left: 162px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent transparent #e5e5e5 transparent;
+}
+/* end dropdown */
