@@ -13,21 +13,18 @@ export const putData = async(movie, id = undefined, del = false) => {
         method = "POST"
         alertmessage = `Movie ${movie.name} got created`
     }
-    console.log('method:', method)
-    console.log('movie:', JSON.stringify(movie))
-    console.log("endpoint", endpoint)
+
     try {
         let response = await fetch(endpoint, {
             method,
             headers: {
-                'Accept': 'application/json',
                 "Authorization": token,
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(movie)
         })
+        let data = await response.json()
         if (!response.ok) throw new Error(response.status + " " + response.statusText)
-
         alert(alertmessage)
 
     } catch (error) {
@@ -46,7 +43,6 @@ export const getData = async(url) => {
         })
         let data = await response.json()
         return data
-
     } catch (error) {
         return "error"
     }

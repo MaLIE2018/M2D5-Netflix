@@ -16,6 +16,7 @@ const createMovieObj = () => {
         }
         return resObj
     }, {})
+    console.log(movie)
     return movie
 }
 
@@ -56,12 +57,14 @@ window.onload = async() => {
     movies = await api.getAllMovies()
     fillSelect()
 
-    delbtn.addEventListener("click", async() => {
+    delbtn.addEventListener("click", async(event) => {
+        event.preventDefault()
         await api.putData(createMovieObj(), select.options[select.value].id, true)
         cleanInputs()
         window.location.reload(true)
     })
-    editbtn.addEventListener("click", async() => {
+    editbtn.addEventListener("click", async(event) => {
+        event.preventDefault()
         await api.putData(createMovieObj(), select.options[select.value].id)
         cleanInputs()
         window.location.reload(true)
